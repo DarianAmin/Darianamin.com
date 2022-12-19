@@ -91,10 +91,3 @@ img[class ^="nav-brand-image"]{
 }
 
 
-.body{
-    background: url("/General Assets/Background Image.jpg");
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    background-size: cover;
-    -o-background-size: cover;
-}
