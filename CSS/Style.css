@@ -99,11 +99,11 @@ header{
 /*media Query*/
 @media only screen and (max-width:600px){
     header{
-        background-position: 50% 70%;
+        background-position: 20% 33%;
     }
 }
 
 .nav-item{
-    background-color: aliceblue;
-    opacity: 30%;
+    text-shadow: #fff 0px 0px 1px;
+    font-size: 1.2rem;
 }
