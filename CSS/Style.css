@@ -90,14 +90,11 @@ img[class ^="nav-brand-image"]{
     background: linear-gradient(to right, #0f2027, #203a43, #2c5364); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 }
 
-#intro {
-    background-image: url(".General Assets\Background Image.jpg");
-    height: 100vh;
-  }
 
-  /* Height for devices larger than 576px */
-  @media (min-width: 992px) {
-    #intro {
-      margin-top: -58.59px;
-    }
-  }
+.body{
+    background: src="./General Assets\Background Image.jpg";
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    -o-background-size: cover;
+}
