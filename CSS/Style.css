@@ -7,8 +7,8 @@ img[class ^="nav-brand-image"]{
 }
 
 .navbar-toggler{
-    width: 20px;
-    height: 20px;
+    width: 30px;
+    height: 30px;
     position: relative;
     transition: .5s ease-in-out;
 }
@@ -49,7 +49,7 @@ img[class ^="nav-brand-image"]{
 
 /* When navigation is clicked */
 
-.nasvbar-toggler .top-bar{
+.navbar-toggler .top-bar{
     margin-top:0px;
     transform: rotate(135deg);
 }
@@ -63,4 +63,22 @@ img[class ^="nav-brand-image"]{
 .navbar-toggler .bottom-bar{
     margin-top:0px;
     transform: rotate(-135deg);
+}
+
+/* State when the navbar is collaped */ 
+
+.navbar-toggler.collapsed .top-bar{
+    margin-top:-20px;
+    transform: rotate(0deg);
+}
+
+.navbar-toggler.collapsed .middle-bar{
+    opacity: 1;
+    filter: alpha(opacity=100);
+
+}
+
+.navbar-toggler.collapsed .bottom-bar{
+    margin-top:20px;
+    transform: rotate(0deg);
 }
