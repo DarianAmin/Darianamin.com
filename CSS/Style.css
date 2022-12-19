@@ -17,9 +17,9 @@ img[class ^="nav-brand-image"]{
 .navbar-toggler:focus,
 .navbar-toggler:active,
 .navbar-toggler:focus{
-    outline: none;
-    box-shadow: none;
-    border: 0;
+    outline: none !important;
+    box-shadow: none !important;
+    border: 0 !important;
 }
 
 .navbar-toggler span{
@@ -39,4 +39,28 @@ img[class ^="nav-brand-image"]{
     transform: rotate(0deg);
     transition: .25s ease-in-out;
 
+}
+
+.middle-bar{
+    margin-top:0px;
+
+}
+
+
+/* When navigation is clicked */
+
+.nasvbar-toggler .top-bar{
+    margin-top:0px;
+    transform: rotate(135deg);
+}
+
+.navbar-toggler .middle-bar{
+    opacity: 0;
+    filter: alpha(opacity=0);
+
+}
+
+.navbar-toggler .bottom-bar{
+    margin-top:0px;
+    transform: rotate(-135deg);
 }
