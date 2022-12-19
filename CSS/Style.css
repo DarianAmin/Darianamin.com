@@ -98,7 +98,7 @@ header{
 /*media Query*/
 @media only screen and (max-width:600px){
     header{
-        background-position: -100% -10%;
+        background-position: -100% 0%;
     }
 }
 
