@@ -82,3 +82,9 @@ img[class ^="nav-brand-image"]{
     margin-top:20px;
     transform: rotate(0deg);
 }
+
+/* Color of 3 lines */
+
+.navbar-toggler.collapsed .toggler-icon{
+    background: linear-gradient(263deg, rgba(252,74,74,1) 0%, rgba(0,212,255,1) 100%);
+}
