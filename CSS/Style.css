@@ -91,7 +91,7 @@ img[class ^="nav-brand-image"]{
 
 header{
     height: 100vh;
-    min-height: 400px;
+    min-height: 40vh;
     background-size: cover;
     background-image: url("/General Assets/Background Image-min.jpg");
 }
