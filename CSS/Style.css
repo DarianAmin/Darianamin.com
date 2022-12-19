@@ -99,6 +99,10 @@ header{
 /*media Query*/
 @media only screen and (max-width:600px){
     header{
-        background-position: 500% 33%;
+        background-position: 20% 33%;
     }
+}
+
+.nav-item{
+    background-color: aliceblue;
 }
