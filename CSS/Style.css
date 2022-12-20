@@ -100,7 +100,7 @@ img[class ^="nav-brand-image"]{
     min-height: 40vh;
     background-size: cover;
     background-image: url("/General Assets/Background Image-min.jpg");
-    background-position: -50% 0%;
+
 }
 /*media Query*/
 @media only screen and (max-width:600px){
