@@ -132,6 +132,9 @@ img[class ^="nav-brand-image"]{
 }
 
 
-.navbar-expand{
+.bg-light{
     opacity: 10% !important;
 }
+
+.nav-item{
+    opacity:1 !important;
