@@ -99,10 +99,8 @@ img[class ^="nav-brand-image"]{
     height: 100vh;
     min-height: 40vh;
     background-size: cover;
-    background-image: url("/General Assets/image.jpg");
     overflow: hidden;
     background-repeat:no-repeat;
-    animation: bg-change 10s infinite ease-in-out;
 
 }
 /*media Query*/
@@ -133,29 +131,3 @@ img[class ^="nav-brand-image"]{
     font-family: TitilliumWeb;
 }
 
-@keyframes bg-change{
-    0%
-    {
-        background-image: url(/images/img1.jpg);
-    }
-    20%
-    {
-        background-image: url(/images/img2.jpg);
-    }
-    40%
-    {
-        background-image: url(/images/image.jpg);
-    }
-    60%
-    {
-        background-image: url(/images/img4.jpg);
-    }
-    80%
-    {
-        background-image: url(/images/img5.jpg);
-    }
-    100%
-    {
-        background-image: url(/images/img1.jpg);
-    }
-}
