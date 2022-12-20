@@ -110,7 +110,7 @@ img[class ^="nav-brand-image"]{
 
 .bg-text{
  
-    color: #000;
+    color: #fff;
     font-family: TitilliumWeb;
     font-size: 2.5rem;
     position: absolute;
@@ -121,10 +121,12 @@ img[class ^="nav-brand-image"]{
     width: 80%;
     padding: 20px;
     text-align: center;
+    
 }
 
 .nav-item{
 
     font-size: 1.5rem;
     font-family: TitilliumWeb;
+    color:#fff;
 }
