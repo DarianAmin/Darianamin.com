@@ -130,10 +130,10 @@ img[class ^="nav-brand-image"]{
     font-family: TitilliumWeb;
 }
 
-.navbar-nav > .active > a {
+.navbar-nav a.active {
   color: #fff;
   background-color: chartreuse;    
 }
-.nav-item > a:hover {
+.nav-item a:hover {
   color: aqua;
 }
