@@ -103,7 +103,6 @@ img[class ^="nav-brand-image"]{
     background-position: center;
     background-repeat: no-repeat;
     background-attachment: fixed;
-    background-image: url("/General Assets/Background Image-min.jpg");
 }
 /*media Query*/
 @media only screen and (max-width:600px){
