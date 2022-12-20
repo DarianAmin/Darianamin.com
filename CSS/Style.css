@@ -107,7 +107,7 @@ img[class ^="nav-brand-image"]{
 
 /*media Query*/
 @media only screen and (max-width:600px){
-    header{
+    .background-image{
         background-position: -100% 0%;
     }
 }
