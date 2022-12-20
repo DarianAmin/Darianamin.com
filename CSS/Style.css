@@ -1,3 +1,8 @@
+@font-face {
+    font-family: TitilliumWeb; 
+    src: url('/Fonts/Titillium_Web/TitilliumWeb-Regular.ttf');
+    } 
+
 img[class ^="nav-brand-image"]{
 
     max-width: 100% !important;
@@ -89,9 +94,10 @@ img[class ^="nav-brand-image"]{
     background:#000;
 }
 
+/*Background image*/
 header{
     height: 100vh;
-    min-height: 30vh;
+    min-height: 40vh;
     background-size: cover;
     background-image: url("/General Assets/Background Image-min.jpg");
 }
@@ -105,4 +111,5 @@ header{
 .nav-item{
 
     font-size: 1.5rem;
+    font-family: TitilliumWeb;
 }
