@@ -95,18 +95,15 @@ img[class ^="nav-brand-image"]{
 }
 
 /*Background image*/
-header{
+.bg-image{
     height: 100vh;
     min-height: 40vh;
     background-size: cover;
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-attachment: fixed;
+    background-image: url("/General Assets/Background Image-min.jpg");
 }
 /*media Query*/
 @media only screen and (max-width:600px){
-    background-image{
+    bg-image{
         background-position: -100% 0%;
     }
 }
