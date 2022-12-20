@@ -94,28 +94,27 @@ img[class ^="nav-brand-image"]{
     background:#000;
 }
 
-
 /*Background image*/
-.background-image{
+.backgound-image{
     height: 100vh;
-    min-height: 30vh;
+    min-height: 40vh;
     background-size: cover;
-/*
-    background-image: url("/General Assets/Background Image-min.jpg");*/
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-image: url("/General Assets/Background Image-min.jpg");
 }
-
-
 /*media Query*/
 @media only screen and (max-width:600px){
-    .background-image{
+    background-image{
         background-position: -100% 0%;
     }
 }
-
-
 
 .nav-item{
 
     font-size: 1.5rem;
     font-family: TitilliumWeb;
 }
+
