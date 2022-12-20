@@ -133,7 +133,7 @@ img[class ^="nav-brand-image"]{
     font-family: TitilliumWeb;
 }
 
-@keyframes .bg-image{
+@keyframes bg-image{
     0%
     {
         background-image: url(images/img1.jpg);
