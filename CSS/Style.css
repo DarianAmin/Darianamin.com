@@ -102,7 +102,7 @@ img[class ^="nav-brand-image"]{
     background-image: url("/General Assets/image.jpg");
     overflow: hidden;
     background-repeat:no-repeat;
-    animation: change 10s infinite ease-in-out;
+    animation: bg-change 10s infinite ease-in-out;
 
 }
 /*media Query*/
@@ -133,7 +133,7 @@ img[class ^="nav-brand-image"]{
     font-family: TitilliumWeb;
 }
 
-@keyframes bg-image{
+@keyframes bg-change{
     0%
     {
         background-image: url(images/img1.jpg);
