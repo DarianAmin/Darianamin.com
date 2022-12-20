@@ -99,7 +99,6 @@ img[class ^="nav-brand-image"]{
     height: 100vh;
     min-height: 40vh;
     background-size: cover;
-    background-repeat:no-repeat;
 
 }
 /*media Query*/
