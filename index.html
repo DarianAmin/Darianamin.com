@@ -10,12 +10,29 @@
     <link type="image/png" sizes="16x16" rel="icon" href="General Assets/icons8-camera-sf-regular-16.png">
     <link type="image/png" sizes="32x32" rel="icon" href="General Assets/icons8-camera-sf-regular-32.png">
     <link type="image/png" sizes="96x96" rel="icon" href="General Assets/icons8-camera-sf-regular-96.png">
+    <script src="/JS/BackgroundChanger.js"> </script>
   </head>
   <body>
     <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
     <!--Background Image-->
     <header>  
-      <div class="bg-image">
+      <div class="bg-image" style="background-image: url('/General Assets/im1.jpg');">
+        <script>
+          var images = new Array(
+            '/General Assets/im1.jpg',
+            '/General Assets/im2.jpg',
+            '/General Assets/im3.jpg',
+            '/General Assets/im4.jpg',
+            '/General Assets/im5.jpg',
+            '/General Assets/im6.jpg',
+          );
+
+          var slider = setInterval(function() {
+            document.getElementsByClassName('bg-img')[0].setAttribute('style', 'background-image: url("'+images[0]+'")');
+            images.splice(images.length, 0, images[0]);
+            images.splice(0, 1);
+          }, 3000);
+        </script>
         <div class="bg-text">
           <h1>Hi, I'm <span class="auto-type"></span></h1>
 
