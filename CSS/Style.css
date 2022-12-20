@@ -95,7 +95,7 @@ img[class ^="nav-brand-image"]{
 }
 
 /*Background image*/
-#intro{
+.header{
     height: 100vh;
     min-height: 40vh;
     background-size: cover;
@@ -107,12 +107,7 @@ img[class ^="nav-brand-image"]{
         background-position: -100% 0%;
     }
 }
-      /* Height for devices larger than 576px */
-      @media (min-width: 992px) {
-        #intro {
-          margin-top: -58.59px;
-        }
-      }
+
 
 .nav-item{
 
