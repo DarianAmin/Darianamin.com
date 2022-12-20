@@ -128,5 +128,9 @@ img[class ^="nav-brand-image"]{
 
     font-size: 1.5rem;
     font-family: TitilliumWeb;
+}
+
+.nav-link{
     color:#fff !important;
+    
 }
