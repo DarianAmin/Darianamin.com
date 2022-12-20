@@ -96,7 +96,7 @@ img[class ^="nav-brand-image"]{
 
 
 /*Background image*/
-header{
+.background-image{
     height: 100vh;
     min-height: 30vh;
     background-size: cover;
