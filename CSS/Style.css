@@ -130,11 +130,3 @@ img[class ^="nav-brand-image"]{
     font-size: 1.5rem;
     font-family: TitilliumWeb;
 }
-
-
-.bg-light{
-    opacity: 10% !important;
-}
-
-.nav-item{
-    opacity:1 !important;
