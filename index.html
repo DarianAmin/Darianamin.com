@@ -13,12 +13,19 @@
   </head>
   <body>
     <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
-    <script src="/JS/AutoType.js"></script>
     <!--Background Image-->
     <header>  
       <div class="bg-image">
         <div class="bg-text">
-          <h1>Hi, I'm Darian Amin</h1>
+          <h1>Hi, I'm <span class="auto-type"></span></h1>
+
+            <script>
+              var typed=new Typed(".auto-type",{
+                strings:["Darian Amin", "a Photographer"],
+                typeSpeed:150,
+                backSpeed:150,
+            })
+            </script>
           
       </div> 
 
