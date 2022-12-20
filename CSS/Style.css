@@ -94,7 +94,8 @@ img[class ^="nav-brand-image"]{
     background:#000;
 }
 
-/*Background image*/
+
+/*Background image
 header{
     height: 100vh;
     min-height: 30vh;
@@ -107,6 +108,8 @@ header{
         background-position: -100% 0%;
     }
 }
+
+*/
 
 
 .nav-item{
