@@ -95,13 +95,16 @@ img[class ^="nav-brand-image"]{
 }
 
 
-/*Background image
+/*Background image*/
 header{
     height: 100vh;
     min-height: 30vh;
     background-size: cover;
-    background-image: url("/General Assets/Background Image-min.jpg");
+/*
+    background-image: url("/General Assets/Background Image-min.jpg");*/
 }
+
+
 /*media Query*/
 @media only screen and (max-width:600px){
     header{
@@ -109,7 +112,6 @@ header{
     }
 }
 
-*/
 
 
 .nav-item{
