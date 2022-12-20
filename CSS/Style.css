@@ -101,6 +101,7 @@ img[class ^="nav-brand-image"]{
     background-size: cover;
     background-image: url("/General Assets/Background Image-min.jpg");
     overflow: hidden;
+    background-repeat:no-repeat;
 
 }
 /*media Query*/
