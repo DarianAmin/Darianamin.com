@@ -16,22 +16,7 @@
     <!--Background Image-->
     <header>  
       <div class="bg-image" style="background-image: url('/General Assets/im1.jpg');">
-        <script>
-          const images = [
-            '/General Assets/im1.jpg',
-            '/General Assets/im2.jpg',
-            '/General Assets/im3.jpg',
-            '/General Assets/im4.jpg',
-            '/General Assets/im5.jpg',
-            '/General Assets/im6.jpg',
-          ];
-          var index=0;
 
-            setInterval(function() {
-              document.querySelector(".bg-img").setAttribute('style', 'background-image: url("'+images[index]+'")'),
-              index = (index===4) ? 0 : index+1;console.log(images[index])}, 1000);
-          
-        </script>
         <div class="bg-text">
           <h1>Hi, I'm <span class="auto-type"></span></h1>
 
@@ -83,4 +68,21 @@
 
 
   </body>
+
+  <script>
+    const images = [
+      '/General Assets/im1.jpg',
+      '/General Assets/im2.jpg',
+      '/General Assets/im3.jpg',
+      '/General Assets/im4.jpg',
+      '/General Assets/im5.jpg',
+      '/General Assets/im6.jpg',
+    ];
+    var index=0;
+
+      setInterval(function() {
+        document.querySelector(".bg-img").setAttribute('style', 'background-image: url("'+images[index]+'")'),
+        index = (index===4) ? 0 : index+1;console.log(images[index])}, 1000);
+    
+  </script>
 </html>
