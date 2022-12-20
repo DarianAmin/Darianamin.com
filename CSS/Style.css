@@ -134,4 +134,4 @@ img[class ^="nav-brand-image"]{
     color:white;
     
 .nav-link{
-    color:rgba(255, 255, 255, 0.55);
+    color:rgba(255, 255, 255, 0.55) !important;
