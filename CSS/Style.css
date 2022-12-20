@@ -99,7 +99,7 @@ img[class ^="nav-brand-image"]{
     height: 100vh;
     min-height: 40vh;
     background-size: cover;
-    background-image: url("/General Assets/im1.jpg");
+    background-image: url("/General Assets/image.jpg");
     overflow: hidden;
     background-repeat:no-repeat;
     animation: change 10s infinite ease-in-out;
@@ -133,7 +133,7 @@ img[class ^="nav-brand-image"]{
     font-family: TitilliumWeb;
 }
 
-@keyframes change{
+@keyframes .bg-image{
     0%
     {
         background-image: url(images/img1.jpg);
