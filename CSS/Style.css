@@ -130,8 +130,6 @@ img[class ^="nav-brand-image"]{
     font-family: TitilliumWeb;
 }
 
-.navbar a{
+a{
   color: white 
 }
-}
-
