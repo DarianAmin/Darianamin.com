@@ -8,6 +8,8 @@
   <link rel="preload" as="image" href="/General Assets/im4.jpg">
   <link rel="preload" as="image" href="/General Assets/im5.jpg">
   <link rel="preload" as="image" href="/General Assets/im6.jpg">
+  <link rel="preload" as="image" href="/General Assets/im7.jpg">
+  <link rel="preload" as="image" href="/General Assets/im8.jpg">
   
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -30,7 +32,9 @@
           "/General Assets/im3.jpg",
           "/General Assets/im4.jpg",
           "/General Assets/im5.jpg",
-          "/General Assets/im6.jpg"
+          "/General Assets/im6.jpg",
+          "/General Assets/im7.jpg",
+          "/General Assets/im8.jpg"
         ];
         let i = 1;
         document.querySelector(".bg-image").style.backgroundImage = `url("${images[0]}")`;
@@ -39,7 +43,7 @@
             document.querySelector(".bg-image").style.backgroundImage = `url("${images[i]}")`;
             i = (i === images.length - 1) ? 0 : i + 1
           },
-          5000
+          10000
         )
       </script>
       <div class="bg-text">
