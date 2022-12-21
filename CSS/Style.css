@@ -114,29 +114,53 @@ img[class ^="nav-brand-image"]{
 @keyframes fade{
     0%{
         background-image: url('/General Assets/im1.jpg');
-        animation-delay: 10s;
+
     }
-    25%{
+    10%{
+        background-image: url('/General Assets/im1.jpg');
+
+    }
+    20%{
         background-image: url('/General Assets/im2.jpg');
-        animation-delay: 10s;
+
     }
-    45%{
+    30%{
+        background-image: url('/General Assets/im2.jpg');
+
+    }
+    40%{
         background-image: url('/General Assets/im3.jpg');
-        animation-delay: 10s;
+
     }
-    75%{
+    50%{
+        background-image: url('/General Assets/im3.jpg');
+
+    }
+    60%{
         background-image: url('/General Assets/im4.jpg');
-        animation-delay: 10s;
+
+    }
+    70%{
+        background-image: url('/General Assets/im4.jpg');
+
+    }
+
+    80%{
+        background-image: url('/General Assets/im5.jpg');
+
+    }
+    90%{
+        background-image: url('/General Assets/im5.jpg');
+
     }
 
     100%{
-        background-image: url('/General Assets/im5.jpg');
-        animation-delay: 10s;
-    }
-
-    125%{
         background-image: url('/General Assets/im6.jpg');
-        animation-delay: 10s;
+
+    }
+    110%{
+        background-image: url('/General Assets/im6.jpg');
+
     }
 
 }
