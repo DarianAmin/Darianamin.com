@@ -124,11 +124,11 @@ img[class ^="nav-brand-image"]{
         background-image: url('/General Assets/im4.jpg');
     }
 
-    60%{
+    80%{
         background-image: url('/General Assets/im5.jpg');
     }
 
-    80%{
+    100%{
         background-image: url('/General Assets/im6.jpg');
     }
 
