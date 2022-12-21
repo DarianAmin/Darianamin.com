@@ -99,7 +99,7 @@ img[class ^="nav-brand-image"]{
     height: 100vh;
     min-height: 40vh;
     background-size: cover;
-    animation: fade 20s infinite ease-in-out;
+    animation: fade 120s infinite ease-in-out;
 
 }
 
@@ -114,21 +114,21 @@ img[class ^="nav-brand-image"]{
     0%{
         background-image: url('/General Assets/im1.jpg');
     }
-    16%{
+    20%{
         background-image: url('/General Assets/im2.jpg');
     }
-    32%{
+    40%{
         background-image: url('/General Assets/im3.jpg');
     }
-    48%{
+    60%{
         background-image: url('/General Assets/im4.jpg');
     }
 
-    80%{
+    60%{
         background-image: url('/General Assets/im5.jpg');
     }
 
-    100%{
+    80%{
         background-image: url('/General Assets/im6.jpg');
     }
 
