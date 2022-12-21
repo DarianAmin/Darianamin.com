@@ -117,7 +117,7 @@ img[class ^="nav-brand-image"]{
 
     }
     10%{
-        background-image: url('/General Assets/im1.jpg');
+        /* background-image: url('/General Assets/im1.jpg');*/
 
     }
     20%{
