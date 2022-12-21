@@ -114,29 +114,29 @@ img[class ^="nav-brand-image"]{
 @keyframes fade{
     0%{
         background-image: url('/General Assets/im1.jpg');
-        opacity: 1;
+        animation-delay: 10s;
     }
     20%{
         background-image: url('/General Assets/im2.jpg');
-        opacity: 1;
+        animation-delay: 10s;
     }
     40%{
         background-image: url('/General Assets/im3.jpg');
-        opacity: 1;
+        animation-delay: 10s;
     }
     60%{
         background-image: url('/General Assets/im4.jpg');
-        opacity: 1;
+        animation-delay: 10s;
     }
 
     80%{
         background-image: url('/General Assets/im5.jpg');
-        opacity: 1;
+        animation-delay: 10s;
     }
 
     100%{
         background-image: url('/General Assets/im6.jpg');
-        opacity: 1;
+        animation-delay: 10s;
     }
 
 }
