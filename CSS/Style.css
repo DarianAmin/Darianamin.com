@@ -99,13 +99,39 @@ img[class ^="nav-brand-image"]{
     height: 100vh;
     min-height: 40vh;
     background-size: cover;
+    animation: fade 20s infinite ease-in-out;
 
 }
+
 /*media Query*/
 @media only screen and (max-width:600px){
     .bg-image{
         background-position: -100% 0%;
     }
+}
+
+@keyframes fade{
+    0%{
+        background-image: url('/General Assets/im1.jpg');
+    }
+    16%{
+        background-image: url('/General Assets/im2.jpg');
+    }
+    32%{
+        background-image: url('/General Assets/im3.jpg');
+    }
+    48%{
+        background-image: url('/General Assets/im4.jpg');
+    }
+
+    80%{
+        background-image: url('/General Assets/im5.jpg');
+    }
+
+    100%{
+        background-image: url('/General Assets/im6.jpg');
+    }
+
 }
 
 .bg-text{
@@ -132,7 +158,7 @@ img[class ^="nav-brand-image"]{
 
 .navbar-nav .nav-link.active{
     color:white;
-    
+}
 .navbar a{
     color:rgba(255, 255, 255, 0.55) !important;
-    }
+}
