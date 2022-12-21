@@ -91,7 +91,7 @@ img[class ^="nav-brand-image"]{
 /* Color of 3 lines */
 
 .navbar-toggler.collapsed .toggler-icon{
-    background:#000;
+    background:#fff;
 }
 
 /*Background image*/
