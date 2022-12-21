@@ -16,23 +16,7 @@
     <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
     <!--Background Image-->
     <header>  
-      <div class="bg-image" style="background-image: url('/General Assets/im1.jpg');">
-        <script>
-          const images = [
-            '/General Assets/im1.jpg',
-            '/General Assets/im2.jpg',
-            '/General Assets/im3.jpg',
-            '/General Assets/im4.jpg',
-            '/General Assets/im5.jpg',
-            '/General Assets/im6.jpg',
-          ];
-          var index=0;
-      
-            setInterval(function() {
-              document.querySelector(".bg-image").setAttribute('style', 'background-image: url("'+images[index]+'")');
-              index = (index===5) ? 0 : index+1;console.log(images[index])}, 20000);
-          
-        </script>
+      <div class="bg-image">
     
         <div class="bg-text">
           <h1>Hi, I'm <span class="auto-type"></span></h1>
@@ -43,9 +27,9 @@
                 typeSpeed:150,
                 backSpeed:150,
                 loop: true,
-            })
+            });
             </script>
-          
+        </div>  
       </div> 
 
  </div>
