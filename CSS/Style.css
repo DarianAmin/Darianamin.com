@@ -99,7 +99,6 @@ img[class ^="nav-brand-image"]{
     height: 100vh;
     min-height: 40vh;
     background-size: cover;
-    animation-delay: 18s;
     animation: fade 120s infinite ease-in;
 
 }
