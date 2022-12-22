@@ -103,3 +103,25 @@ img[class ^="nav-brand-image"]{
     font-family: TitilliumWeb;
 }
 
+/*Form*/
+
+.mb-4{
+  padding-top: 15vh;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+
+.md-form{
+
+padding-bottom: 20px;
+}
+
+.list-unstyled{
+  padding: 3vh;
+
+}
+body{
+    overflow-x:hidden;
+}
+
