@@ -21,7 +21,8 @@ img[class ^="nav-brand-image"]{
 .navbaar-toggler,
 .navbar-toggler:focus,
 .navbar-toggler:active,
-.navbar-toggler:focus{
+.navbar-toggler:focus,
+.navbar{
     outline: none !important;
     box-shadow: none !important;
     border: 0 !important;
