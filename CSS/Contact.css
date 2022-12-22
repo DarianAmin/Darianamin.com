@@ -103,6 +103,12 @@ img[class ^="nav-brand-image"]{
     font-family: TitilliumWeb;
 }
 
+.text-center{
+    font-family: TitilliumWeb;
+
+  
+}
+
 /*Form*/
 
 .mb-4{
@@ -115,6 +121,8 @@ img[class ^="nav-brand-image"]{
 .md-form{
 
 padding-bottom: 20px;
+font-family: TitilliumWeb;
+
 }
 
 .list-unstyled{
@@ -123,5 +131,10 @@ padding-bottom: 20px;
 }
 body{
     overflow-x:hidden;
+
+}
+
+p{
+  font-family: TitilliumWeb;
 }
 
