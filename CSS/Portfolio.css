@@ -179,3 +179,8 @@ footer{
   clear:both;
   padding-top:20px;
 } 
+
+body{
+    overflow-y:hidden;
+
+}
