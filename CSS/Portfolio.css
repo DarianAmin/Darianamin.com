@@ -181,13 +181,7 @@ footer{
 } 
 
 body{
-    overflow-y: hidden;
+    overflow-y: auto;
 }
 
-/* this is for mobile devices */
-@media only screen and (max-width: 480px){
-    body{
-        overflow-y: visible;
-    }   
-}
 
