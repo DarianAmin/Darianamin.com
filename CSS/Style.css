@@ -143,13 +143,8 @@ img[class ^="nav-brand-image"]{
 
 /*Overflow*/
 body{
-    overflow-y: visible;
+    overflow-y: hidden;
 }
 
-/* this is for mobile devices */
-@media only screen and (max-width: 480px){
-    body{
-        overflow-y: hidden;
-    }   
-}
+
 
